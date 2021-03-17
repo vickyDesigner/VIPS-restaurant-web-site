@@ -1,0 +1,45 @@
+@media only screen and (max-width: 680px) {
+  body {
+    background-image: url(../image/reservation_mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #res_content label {
+    display: flow-root;
+  }
+
+  .saladbar p {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .reservation p {
+    font-size: 14px;
+    padding: 20px;
+    margin: auto;
+  }
+
+  #res_content img {
+    display: none;
+  }
+  .res_container {
+    padding: 0px;
+  }
+  #field {
+    margin: auto;
+    float: left;
+    padding: 20px;
+    display: inline-flex;
+  }
+  #btnsend {
+    margin: auto;
+    width: fit-content;
+    padding: 10px 20px;
+  }
+
+  form {
+    display: grid;
+    text-align: center;
+  }
+}

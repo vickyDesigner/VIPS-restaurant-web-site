@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vips Restuarant mock up site</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/booking.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/44724ba013.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="index.html" class="home-link">
+          <div class="navbar-logo">
+            <img src="image/logo.png" />
+          </div>
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggle"
+          aria-label="Open navigation menu"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="menu.html">Menu</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="saladbar.html">Salad bar</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="store.html">Store</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="event.html">Event</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="saladbar">
+      <h1
+        id="banner-textX"
+        class="animate__animated animate__swing"
+        data-wow-duration="2s"
+      >
+        SALAD BAR
+      </h1>
+      <p>
+        We serve breakfast with fresh ingredients, prepare salad for the salad
+        bar.<br />
+        Enjoy tasty and healthy salad in Vips.
+      </p>
+      <ul class="wow animate__animated animate__flipInX" data-wow-duration="2s">
+        <li>Soup</li>
+        <li>Garden Salad</li>
+        <li>Pizza & Pasta</li>
+        <li>Noodle</li>
+        <li>Dessert</li>
+      </ul>
+      <div id="barImg">
+        <class id="bar_box">
+          <class id="soupbox">
+            <h2
+              class="wow animate__animated animate__slideInDown"
+              data-wow-duration="2s"
+            >
+              SOUP
+            </h2>
+          </class>
+        </class>
+        <class id="bar_box">
+          <img src="image/saladbar_2.jpg" />
+        </class>
+        <class id="bar_box">
+          <class id="noodle">
+            <h2
+              class="wow animate__animated animate__slideInDown"
+              data-wow-duration="2s"
+            >
+              NOODLE
+            </h2>
+          </class>
+        </class>
+        <class id="bar_box">
+          <img src="image/saladbar_4.jpg" />
+        </class>
+        <class id="bar_box">
+          <img src="image/saladbar_5.jpg" />
+        </class>
+        <class id="bar_box">
+          <class id="pasta">
+            <h2
+              class="wow animate__animated animate__slideInDown"
+              data-wow-duration="2s"
+            >
+              PASTA
+            </h2>
+          </class>
+        </class>
+        <class id="bar_box">
+          <img src="image/saladbar_7.jpg" />
+        </class>
+        <class id="bar_box">
+          <class id="dessert">
+            <h2
+              class="wow animate__animated animate__slideInDown"
+              data-wow-duration="2s"
+            >
+              DESSERT
+            </h2>
+          </class>
+        </class>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

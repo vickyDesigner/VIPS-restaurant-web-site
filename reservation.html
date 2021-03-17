@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vips Restuarant mock up site</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/booking.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/44724ba013.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="index.html" class="home-link">
+          <div class="navbar-logo">
+            <img src="image/logo.png" />
+          </div>
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggle"
+          aria-label="Open navigation menu"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="menu.html">Menu</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="saladbar.html">Salad bar</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="store.html">Store</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="event.html">Event</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="reservation">
+      <h1 class="animate__animated animate__swing" data-wow-duration="2s">
+        RESERVATION
+      </h1>
+      <p>
+        You can use reservation service for important event or meeting.<br />
+        Please enter the information in the blank space below and send a
+        message.
+      </p>
+      <div class="res_container">
+        <div id="res_content">
+          <form action="" name="myForm" onsubmit="return(validate());">
+            <div id="field">
+              <label for="name">Name </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                minlength="2"
+                maxlength="20"
+                size="50"
+              />
+            </div>
+            <div id="field">
+              <label for="date">Date</label>
+              <input
+                type="date"
+                id="date"
+                name="date"
+                value="2021-01-18"
+                min="2021-01-01"
+                max="2021-12-31"
+              /><br />
+            </div>
+            <div id="field">
+              <label for="tel">Tel</label>
+              <input
+                name="tel1"
+                type="tel"
+                pattern="[0-9]{3}"
+                placeholder=""
+                aria-label="3-digit area code"
+                size="5"
+              />
+              -
+              <input
+                name="tel2"
+                type="tel"
+                pattern="[0-9]{3}"
+                placeholder=""
+                aria-label="3-digit prefix"
+                size="5"
+              />
+              -
+              <input
+                name="tel3"
+                type="tel"
+                pattern="[0-9]{4}"
+                placeholder=""
+                aria-label="4-digit number"
+                size="5"
+              />
+            </div>
+            <div id="field">
+              <label for="memo">Memo</label>
+              <input
+                type="text"
+                id="memo"
+                name="memo"
+                minlength="3"
+                size="50"
+              />
+            </div>
+            <input
+              id="btnsend"
+              onclick="btnSend()"
+              type="submit"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <div id="res_content">
+          <img
+            class="wow animate__animated animate__zoomInRight"
+            data-wow-duration="1s"
+            src="image/reservation.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

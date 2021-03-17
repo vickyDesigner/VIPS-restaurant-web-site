@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vips Restuarant mock up site</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/44724ba013.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="index.html" class="home-link">
+          <div class="navbar-logo">
+            <img src="image/logo.png" />
+          </div>
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggle"
+          aria-label="Open navigation menu"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="navbar-menu">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="menu.html">Menu</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="saladbar.html">Salad bar</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="store.html">Store</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="event.html">Event</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="event">
+      <h1
+        id="banner-textX"
+        class="animate__animated animate__swing"
+        data-wow-duration="2s"
+      >
+        Event
+      </h1>
+      <div class="eventList">
+        <div class="eventItem1" id="eventItem">
+          <img src="image/eventImg1.png" />
+          <div id="eventText">
+            <h4>Spring season menu</h4>
+            <h5>Mar 1 ~ April 10</h5>
+          </div>
+        </div>
+        <div class="eventItem2" id="eventItem">
+          <img src="image/eventImg2.png" />
+          <div id="eventText">
+            <h4>Happy Christmas Limited menu</h4>
+            <h5>Dec 1 ~ Jan 7</h5>
+          </div>
+        </div>
+        <div class="eventItem3" id="eventItem">
+          <img src="image/eventImg3.png" />
+          <div id="eventText">
+            <h4>Special dinner menu</h4>
+            <h5>Always</h5>
+          </div>
+        </div>
+        <div class="eventItem4" id="eventItem">
+          <img src="image/eventImg4.png" />
+          <div id="eventText">
+            <h4>To go menu for safe</h4>
+            <h5>Always</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

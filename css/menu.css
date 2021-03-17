@@ -1,0 +1,128 @@
+@media only screen and (max-width: 680px) {
+  #banner-text h2 {
+    display: none;
+  }
+  .banner {
+    margin-bottom: 30px;
+  }
+  #banner-textX {
+    padding: 30px;
+    color: #000;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0px 2px 4px #dc6d48;
+  }
+  .menubox {
+    margin-top: 0px;
+    text-align: center;
+    display: block;
+  }
+  .menu {
+    padding: 0px;
+    display: inline-block;
+  }
+  .menu img {
+    border-radius: 50px;
+    height: 200px;
+    padding: 10px;
+  }
+  .description,
+  .saladbar ul,
+  #bar_box h2 {
+    display: none;
+  }
+  #bar_box img,
+  #noodle,
+  #pasta,
+  #dessert,
+  #soupbox {
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+  #barImg {
+    margin-top: 0px;
+    text-align: center;
+    display: block;
+  }
+  #barImg img {
+    height: auto;
+  }
+  #bar_box {
+    height: auto;
+    width: auto;
+  }
+
+  /*********************************/
+  /***** TO GO MENU *******************/
+
+  .togoMobile {
+    margin-top: 50px;
+  }
+  #togoMenu {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #togoitem {
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 70px;
+  }
+  #togoitem img {
+    width: 200px;
+    padding: 20px;
+  }
+  #togoitem h5 {
+    margin: auto;
+    font-size: 14px;
+  }
+  #togoitem p {
+    display: inline-flex;
+    font-size: 12px;
+    width: 200px;
+    padding: 0px;
+  }
+
+  /*****************************/
+  /******* Event ****************************/
+  .event {
+    text-align: center;
+    margin: auto;
+  }
+
+  #eventList {
+    padding: 10px;
+  }
+  #eventItem {
+    padding: 0px;
+  }
+  #eventItem img {
+    height: 160px;
+    display: inline-flex;
+  }
+  #eventText {
+    width: auto;
+
+    float: initial;
+    padding: 30px;
+  }
+  #eventText h4 {
+    font-size: 18px;
+    padding: 0px;
+    margin: auto;
+    display: inline-flex;
+    color: #dc6d48;
+    text-shadow: 0px 2px 4px rgb(176, 176, 176);
+  }
+
+  #eventText h5 {
+    padding: 10px;
+    margin: auto;
+    font-size: 12px;
+    color: #000;
+    text-shadow: 0px 2px 4px rgb(176, 176, 176);
+  }
+}

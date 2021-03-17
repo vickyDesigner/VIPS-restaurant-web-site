@@ -1,0 +1,150 @@
+@media only screen and (max-width: 680px) {
+  :root {
+    --navbar-text-color: #ff7146;
+    --navbar-text-color-focus: #ff7160;
+    --navbar-bg-contrast: hsla(18, 100%, 90%, 0.459);
+  }
+  body {
+    margin: 0 auto;
+    background-image: url(../image/mobile_main.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+  }
+  .navbar-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+  }
+  .container {
+    width: 90%;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .new_menu {
+    display: block;
+  }
+  .new_menu h1 {
+    font-size: 20px;
+    vertical-align: bottom;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .slides,
+  #mainPara1,
+  .btnmore {
+    display: none;
+  }
+  #new_box1 {
+    margin-top: 0px;
+  }
+  #new_box1 h2 {
+    color: #fff;
+    text-align: right;
+
+    font-size: 26px;
+    padding: 0px;
+
+    text-shadow: 0px 2px 4px #dc6d48;
+  }
+
+  .navbar-menu li a {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .freshFood,
+  .bestseller,
+  .saladbar,
+  .reservation,
+  .service,
+  .togo,
+  .beverage,
+  footer {
+    display: none;
+  }
+  .new_boxes {
+    display: block;
+    background-color: #fff;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: -webkit-fill-available;
+  }
+  #new_boxes2 {
+    display: inline-flex;
+  }
+  #new_box_content,
+  #new_box_content2 {
+    box-shadow: none;
+    padding: 0px;
+    border: solid 0.5px #979797;
+    background-color: #fff;
+    border-radius: 50px;
+  }
+  #new_box_content img,
+  #new_box_content2 img {
+    border-radius: 50px;
+  }
+  #new_box_content h3,
+  #new_box_content2 h3 {
+    font-size: 12px;
+  }
+  #new_box_content p,
+  #new_box_content2 p {
+    font-size: 10px;
+  }
+  #new_box {
+    margin-top: 0px;
+    padding: 20px 20px;
+    display: inherit;
+    width: auto;
+  }
+  .btnHide {
+    padding: 30px;
+    display: block;
+    margin-bottom: 60px;
+  }
+  .btnBookingnow,
+  .btnTogo {
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 2px #dc6d48;
+    display: flex;
+    margin-right: 10px;
+    background-color: transparent;
+    text-shadow: 0px 2px 4px #dc6d48;
+    margin-left: 15px;
+    float: right;
+  }
+  .btnBookingnow a,
+  .btnTogo a {
+    color: #fff;
+  }
+
+  /*********************************/
+  /********** MENU ***********************/
+  #banner-text h2,
+  .description {
+    display: none;
+  }
+
+  #container {
+    background-color: white;
+  }
+  .menu {
+    display: none;
+  }
+  .m-menu {
+    display: inline-block;
+  }
+}
